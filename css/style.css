@@ -56,7 +56,6 @@ first div in the grid  and place it in the grid. */
 
 .about {
   grid-row: 2;
-
 }
 
 .method {
@@ -123,16 +122,15 @@ first div in the grid  and place it in the grid. */
   /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/
 
      .about, .clients, .method-image, .contact-image {
-          grid-column: 3 / span 5;
+          grid-column: 3 / 5;
      }
 
      .method, .contact, .about-image, .clients-image {
-          grid-column: 2 / span 4;
+          grid-column: 2 / 4;
      }
 
  /* Step 13:Write the selector/rule property to update the .text-block class */
      .text-block {
           max-height: 250px;
-          overflow: auto;
      }
 }
